@@ -161,7 +161,7 @@ while (currentDate < endTime) {
     <circle cx="6" cy="6" r="5" stroke="currentColor" strokeWidth="1.2"/>
     <path d="M6 3.5v2.8l1.8 1.8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
   </svg>
-  {docInfo.experience} {docInfo.experience === 1 ? 'Year' : 'Years'} of Experience
+  {docInfo.experience} {docInfo.experience === "1" ? 'Year' : 'Years'} of Experience
 </span>
             <div className="my-5 h-px bg-gray-200" />
 
