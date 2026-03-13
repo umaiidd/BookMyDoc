@@ -156,10 +156,13 @@ while (currentDate < endTime) {
               </span>
             </p>
 
-            <span className="inline-block mt-3 px-4 py-1.5 rounded-full bg-gray-100 text-sm">
-              {docInfo.experience}
-            </span>
-
+        <span className="inline-flex items-center gap-1.5 mt-3 px-3 py-1.5 rounded-full text-xs font-medium text-blue-700 border border-blue-200 bg-blue-50">
+  <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="6" cy="6" r="5" stroke="currentColor" strokeWidth="1.2"/>
+    <path d="M6 3.5v2.8l1.8 1.8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+  </svg>
+  {docInfo.experience} {docInfo.experience === 1 ? 'Year' : 'Years'} of Experience
+</span>
             <div className="my-5 h-px bg-gray-200" />
 
             <p className="text-lg font-semibold text-gray-900 flex items-center gap-2">
