@@ -124,7 +124,7 @@ const DoctorAppointment = () => {
                       {/* Index */}
                       <td className='px-6 py-4'>
                         <span className='text-gray-500 font-medium text-sm'>
-                          {appointments.length - index}
+                          {index + 1}
                         </span>
                       </td>
 
